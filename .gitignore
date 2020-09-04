@@ -1,0 +1,37 @@
+# Ignore Python build artifacts.
+
+*.egg-info/
+*.pyc
+*.pyo
+
+
+# Ignore pyenv files.
+
+.python-version
+
+
+# Ignore virtualenv environments.
+
+.venv*/
+Lib/
+Scripts/
+
+
+# Ignore settings for various IDEs.
+
+.idea/
+.project/
+.pydevproject/
+.vscode/
+nbproject/
+*.code-workspace
+__pycache__/
+
+
+# Ignore OS metadata files.
+
+.DS_Store
+Thumbs.db
+
+# Ignore credentials
+credentials.py
